@@ -60,6 +60,13 @@ CSS STRUCTURE:
 /*--------------------------------------------------------------
 /** 1. VARIABLES
 --------------------------------------------------------------*/
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0.5rem; /* optional spacing */
+}
+
+
 :root {
   --primary-color: #D16806;
   --secondary-color: #F9F6F3;
